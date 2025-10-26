@@ -1,0 +1,14 @@
+Why is a hash table the right structure for fast lookups?
+A hash table is the right structure for fast lookups because it uses specific functions to find indexs/keys that are specifically being asked for.
+These enable us the search, insert, and delete items in a short time without having to filter through every element.
+This is great for large data sets, such as looking up contacts by name, when quick access to them is needed.
+
+How did you handle collisions?
+A collision that I had to handle was when inserting 2 contacts that were similar.
+This created an issue when inserting, but instead of creating a new node for the contacts, I updated one of the numbers instead.
+This will make sure that the contacts will have the ability to be accessed, even when some may share values.
+
+When might an engineer choose a hash table over a list or tree?
+As mentioned before, hash tables are a great structure to use when you need fast access to data, which is why an engineer may want to use a hash table over a list or tree.
+Some things that an engineer may specifically used a hash table for would be contacts, login system/info, or even tracking inventory; which are all things that need to be accessed quickly and not in a specific order.
+It is also an easier structure to use when handling insertions and deletions, which is something engineers or and place of work need, especially when hiring or firing employees.
